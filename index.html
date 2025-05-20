@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .active{
+        background-color: aqua;
+      }
+    </style>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
@@ -16,10 +21,10 @@
       <nav class="flex items-center justify-between  py-3 border-b-3 ">
         <div><h1 class="text-3xl font-bold text-red-500">PH TUBE</h1></div>
         <div>
-            <input type="text" placeholder="Search">
+            <input id="search-input" type="text" placeholder="Search">
         </div>
         <div>
-            <button class="btn">Sort</button>
+            <button id="sort-btn" class="btn">Sort</button>
         </div>
       </nav>
       <!-- Category botton container section -->
